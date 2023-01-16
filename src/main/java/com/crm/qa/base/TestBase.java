@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.log4testng.Logger;
 
 import com.crm.qa.utli.TestUtil;
 import com.crm.qa.utli.WebEventListener;
@@ -19,9 +20,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
-	public static WebEventListener eventListener;
-
-	
+	public static WebEventListener eventListener;	
 
 	public TestBase() throws IOException {
 //		FileInputStream fi = new FileInputStream("/Users/jayas/Desktop/Selenium_WorkSpace/FreeCRMTest/src/main/java/com/crm/qa/config/config.properties");
@@ -49,7 +48,6 @@ public class TestBase {
 				driver = new ChromeDriver();
 			}
 		
-		
 		e_driver = new EventFiringWebDriver(driver);
 		// Now create object of EventListerHandler to register it with EventFiringWebDriver
 		eventListener = new WebEventListener();
@@ -67,6 +65,7 @@ public class TestBase {
 		
 		
 		driver.get(prop.getProperty("url"));
+		
 		
 	}
 	
