@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Free CRM TestCases">
+  
+  <listeners>
+  	<listener class-name = "extendReport.ListnerExtendReport"/>
+  </listeners>
+  
+    <classes>
+      <class name="com.crm.qa.tests.LoginPageTest"/>
+      <class name="com.crm.qa.tests.HomePageTest"/>
+      <class name="com.crm.qa.tests.ContactsPageTest"/>
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite --> 

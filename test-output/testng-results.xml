@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-13T14:13:11 IST" name="Suite" finished-at="2023-01-13T14:17:44 IST" duration-ms="273037">
+    <groups>
+    </groups>
+    <test started-at="2023-01-13T14:13:11 IST" name="Free CRM TestCases" finished-at="2023-01-13T14:17:44 IST" duration-ms="273037">
+      <class name="com.crm.qa.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:11 IST" name="setUp" finished-at="2023-01-13T14:13:20 IST" duration-ms="8590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifingtitle()[pri:1, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:20 IST" name="verifingtitle" finished-at="2023-01-13T14:13:20 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifingtitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:20 IST" name="closeBrowser" finished-at="2023-01-13T14:13:20 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:20 IST" name="setUp" finished-at="2023-01-13T14:13:28 IST" duration-ms="7189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifingLogo()[pri:2, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:28 IST" name="verifingLogo" finished-at="2023-01-13T14:13:28 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifingLogo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:28 IST" name="closeBrowser" finished-at="2023-01-13T14:13:28 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:28 IST" name="setUp" finished-at="2023-01-13T14:13:36 IST" duration-ms="7346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:3, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:36 IST" name="login" finished-at="2023-01-13T14:13:45 IST" duration-ms="9028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.tests.LoginPageTest@7219ec67]" started-at="2023-01-13T14:13:45 IST" name="closeBrowser" finished-at="2023-01-13T14:13:45 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.qa.tests.LoginPageTest -->
+      <class name="com.crm.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="getiingtoHomepage()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:13:45 IST" name="getiingtoHomepage" finished-at="2023-01-13T14:14:03 IST" duration-ms="17835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getiingtoHomepage -->
+        <test-method signature="homePageTitle()[pri:1, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:03 IST" name="homePageTitle" finished-at="2023-01-13T14:14:03 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [CRMPRO1] but found [CRMPRO]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [CRMPRO1] but found [CRMPRO]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.crm.qa.tests.HomePageTest.homePageTitle(HomePageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:03 IST" name="closeBrowser" finished-at="2023-01-13T14:14:03 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="getiingtoHomepage()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:03 IST" name="getiingtoHomepage" finished-at="2023-01-13T14:14:19 IST" duration-ms="15581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getiingtoHomepage -->
+        <test-method signature="verifingUsername()[pri:2, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:19 IST" name="verifingUsername" finished-at="2023-01-13T14:14:19 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifingUsername -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:19 IST" name="closeBrowser" finished-at="2023-01-13T14:14:20 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="getiingtoHomepage()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:20 IST" name="getiingtoHomepage" finished-at="2023-01-13T14:14:35 IST" duration-ms="15719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getiingtoHomepage -->
+        <test-method signature="clickOnContacts()[pri:3, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:35 IST" name="clickOnContacts" finished-at="2023-01-13T14:14:39 IST" duration-ms="3504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContacts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:39 IST" name="closeBrowser" finished-at="2023-01-13T14:14:39 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="getiingtoHomepage()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:39 IST" name="getiingtoHomepage" finished-at="2023-01-13T14:14:55 IST" duration-ms="15934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getiingtoHomepage -->
+        <test-method signature="clickOnTaskss()[pri:4, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:55 IST" name="clickOnTaskss" finished-at="2023-01-13T14:14:58 IST" duration-ms="2715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTaskss -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:58 IST" name="closeBrowser" finished-at="2023-01-13T14:14:58 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="getiingtoHomepage()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:14:58 IST" name="getiingtoHomepage" finished-at="2023-01-13T14:15:14 IST" duration-ms="15152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getiingtoHomepage -->
+        <test-method signature="clickOnDeals()[pri:5, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:15:14 IST" name="clickOnDeals" finished-at="2023-01-13T14:15:16 IST" duration-ms="2694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDeals -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.tests.HomePageTest@4313f5bc]" started-at="2023-01-13T14:15:16 IST" name="closeBrowser" finished-at="2023-01-13T14:15:17 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.qa.tests.HomePageTest -->
+      <class name="com.crm.qa.tests.ContactsPageTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:15:17 IST" name="beforeMethod" finished-at="2023-01-13T14:15:35 IST" duration-ms="18736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifingContactLable()[pri:1, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:15:35 IST" name="verifingContactLable" finished-at="2023-01-13T14:15:35 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifingContactLable -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:15:35 IST" name="afterMethod" finished-at="2023-01-13T14:15:36 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:15:37 IST" name="beforeMethod" finished-at="2023-01-13T14:16:09 IST" duration-ms="31225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="creatNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:16:09 IST" name="creatNewContact" data-provider="getCRMdata" finished-at="2023-01-13T14:16:19 IST" duration-ms="10329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumble]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Anu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sahara]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatNewContact -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:16:19 IST" name="afterMethod" finished-at="2023-01-13T14:16:19 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:16:19 IST" name="beforeMethod" finished-at="2023-01-13T14:16:42 IST" duration-ms="22363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="creatNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:16:42 IST" name="creatNewContact" data-provider="getCRMdata" finished-at="2023-01-13T14:16:48 IST" duration-ms="6612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anushka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kohli]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chiku]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bcci]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatNewContact -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:16:48 IST" name="afterMethod" finished-at="2023-01-13T14:16:49 IST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:16:49 IST" name="beforeMethod" finished-at="2023-01-13T14:17:09 IST" duration-ms="20354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="creatNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:17:09 IST" name="creatNewContact" data-provider="getCRMdata" finished-at="2023-01-13T14:17:17 IST" duration-ms="7406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sky]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Icci]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Usa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatNewContact -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:17:17 IST" name="afterMethod" finished-at="2023-01-13T14:17:17 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:17:17 IST" name="beforeMethod" finished-at="2023-01-13T14:17:36 IST" duration-ms="18772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="creatNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:17:36 IST" name="creatNewContact" data-provider="getCRMdata" finished-at="2023-01-13T14:17:44 IST" duration-ms="7655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Virat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kohli]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chiku]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bcci]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatNewContact -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@7f010382]" started-at="2023-01-13T14:17:44 IST" name="afterMethod" finished-at="2023-01-13T14:17:44 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.crm.qa.tests.ContactsPageTest -->
+    </test> <!-- Free CRM TestCases -->
+  </suite> <!-- Suite -->
+</testng-results>
