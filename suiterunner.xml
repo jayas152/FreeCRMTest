@@ -8,8 +8,8 @@
   
     <classes>
       <class name="com.crm.qa.tests.LoginPageTest"/>
-  <!--      <class name="com.crm.qa.tests.HomePageTest"/>
-      <class name="com.crm.qa.tests.ContactsPageTest"/>    -->
+       <class name="com.crm.qa.tests.HomePageTest"/>
+      <class name="com.crm.qa.tests.ContactsPageTest"/>    
     </classes> 
   </test> <!-- Test -->
 </suite> <!-- Suite --> 
